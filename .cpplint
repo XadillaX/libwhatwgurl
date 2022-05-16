@@ -1,1 +1,3 @@
-CPPLINT.cfg
+set noparent
+filter=-build/include_alpha,-build/include_subdir,-build/include_what_you_use,-legal/copyright,-readability/nolint
+linelength=80

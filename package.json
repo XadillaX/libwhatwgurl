@@ -1,0 +1,35 @@
+{
+  "name": "whatwgurl",
+  "version": "1.0.0",
+  "description": "WHATWG URL implement of C++ / Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XadillaX/libwhatwgurl.git"
+  },
+  "keywords": [
+    "WHATWG",
+    "URL"
+  ],
+  "author": "XadillaX <i@2333.moe>",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/XadillaX/libwhatwgurl/issues"
+  },
+  "homepage": "https://github.com/XadillaX/libwhatwgurl#readme",
+  "devDependencies": {
+    "clang-format": "^1.8.0",
+    "cpplint": "0.0.1",
+    "eslint": "^8.15.0",
+    "eslint-config-egg": "^11.1.0",
+    "node-gyp": "^9.0.0"
+  },
+  "dependencies": {
+    "nan": "^2.15.0"
+  }
+}

@@ -104,3 +104,7 @@ dist
 .tern-port
 
 out
+bild
+.clangd
+core
+compile_commands.json
